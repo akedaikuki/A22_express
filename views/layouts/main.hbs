@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>express_base</title>
+
+   <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+   <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <button><a type="button" class="btn_home" href="/">回到首頁</a></button>
+      <div class="list">
+      <button><a type="button" class="btn_about" href="/about">About</a></button>
+      <button><a type="button" class="btn_portfolio" href="/portfolio">Portfolio</a></button>
+      <button><a type="button" class="btn_contact" href="/contact">Contact</a></button>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- partial templates will replace the part of "body" here -->
+  {{{ body }}}
+
+
+  <script src="/javascripts/popper.js"></script>
+  <script src="/javascripts/bootstrap.js"></script>
+</body>
+</html>
