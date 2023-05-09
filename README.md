@@ -21,8 +21,13 @@ npm install
 npm run dev
 ```
 - Step5. 確認訊息是否如下 
-- App is running on http://localhost:3000
-- Step6. 瀏覽器輸入 http://localhost:3000
+```bash
+App is running on http://localhost:3000
+```
+- Step6. 瀏覽器輸入 
+```bash
+http://localhost:3000
+```
 - Step7. 如欲暫停伺服器，請切換至終端機並且
 ```bash
 ctrl+c
